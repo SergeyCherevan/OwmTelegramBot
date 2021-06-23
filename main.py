@@ -4,7 +4,7 @@ import pyowm
 from pyowm.utils.config import get_default_config
 
 
-
+# никогда не делайте так: всегда храните токены  в отдельном файле с .gitignore
 bot = telebot.TeleBot('1840232772:AAF4PGhwUlOqPT2PIaq9agD_NT2G1DphcFE')
 
 config_dict = get_default_config()
